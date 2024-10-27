@@ -1,0 +1,974 @@
+Specific Functions Analysis:
+
+Analyzing function at 0x8c10106a
+0x8c10106a: mov.w   #h'91F, r6; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c101a12
+0x8c101a12: mov.l   r8, @(h'30,r0); Register manipulation - Register manipulation
+0x8c101a14: mov.w   #h'FFFF8413, r12; Register manipulation - Register manipulation
+0x8c101a16: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c101a18: bra     loc_8C100A40; Unconditional branch to 0x8c100a40 - Unconditional branch to 0x8c100a40
+0x8c101a1a: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c100a40: icbi    @r3; Instruction cache block invalidate - Instruction cache block invalidate
+0x8c100a44: mov.l   r13, @(8,r14); Register manipulation - Register manipulation
+0x8c100a48: mov.l   r13, @(4,r14); Register manipulation - Register manipulation
+0x8c100a4c: mov.l   r13, @(h'C,r14); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c101dda
+0x8c101de0: mov.w   #h'168C, r5; Register manipulation - Register manipulation
+0x8c101de2: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c101de4: mov.l   @(h'18,r2), r4; Register manipulation - Register manipulation
+0x8c101de6: extu.b  r8, r11; Sign/Zero extension - Sign/Zero extension
+0x8c101de8: exts.w  r8, r0; Sign/Zero extension - Sign/Zero extension
+0x8c101dea: mov.b   @(r0,r8), r3; Register manipulation - Register manipulation
+0x8c101dec: mov.l   #h'80721844, r12; Register manipulation - Register manipulation
+0x8c101dee: mov.l   r8, @(h'30,r0); Register manipulation - Register manipulation
+0x8c101df0: bra     unk_8C100E1A; Unconditional branch to 0x8c100e1a - Unconditional branch to 0x8c100e1a
+0x8c101df2: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c101f36
+0x8c101f40: bra     dword_8C100F7C; Unconditional branch to 0x8c100f7c - Unconditional branch to 0x8c100f7c
+0x8c101f42: mov.l   r8, @(h'30,r6); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10208e
+0x8c102094: mov.b   @r6+, r3; Register manipulation - Register manipulation
+0x8c102096: icbi    @r9; Instruction cache block invalidate - Instruction cache block invalidate
+0x8c10209e: mov.w   @(r0,r8), r2; Register manipulation - Register manipulation
+0x8c1020a0: mov.w   r7, @(r0,r11); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10230c
+0x8c10230c: mov.w   @(r0,r4), r8; Register manipulation - Register manipulation
+0x8c10230e: mov     r13, r13; Register manipulation - Register manipulation
+0x8c102310: mov.w   @(r0,r4), r0; Register manipulation - Register manipulation
+0x8c102312: mov     #h'64, r3 ; 'd'; Register manipulation - Register manipulation
+0x8c102314: dmuls.l r3, r12; Signed 64-bit multiply - Signed 64-bit multiply
+0x8c102316: mov.l   r6, @(h'14,r3); Register manipulation - Register manipulation
+0x8c102318: mov.l   #h'28F56A8C, r3; Register manipulation - Register manipulation
+0x8c10231a: mov.l   @(h'10,gbr), r0; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c102332
+0x8c102332: mov.w   r7, @(r0,r8); Register manipulation - Register manipulation
+0x8c102334: icbi    @r6; Instruction cache block invalidate - Instruction cache block invalidate
+
+Analyzing function at 0x8c10250e
+0x8c10250e: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102510: mov     #h'FFFFFFAE, r8; Register manipulation - Register manipulation
+0x8c102512: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102516: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102518: mov.b   r0, @(h'AD,gbr); Register manipulation - Register manipulation
+0x8c10251a: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c10251c: mov.w   #9, r0; Register manipulation - Register manipulation
+0x8c10251e: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102520: mov     #h'2F, r6 ; '/'; Register manipulation - Register manipulation
+0x8c102522: mov.l   #h'7DA50900, r6; Register manipulation - Register manipulation
+0x8c102524: mov.l   @(h'BC,gbr), r0; Register manipulation - Register manipulation
+0x8c102528: bra     loc_8C10318A; Unconditional branch to 0x8c10318a - Unconditional branch to 0x8c10318a
+0x8c10252a: mov.w   #h'4262, r6; Register manipulation - Register manipulation
+0x8c103190: mov.l   r15, @(h'18,r8); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c1025fc
+0x8c1025fc: bra     loc_8C102ACA; Unconditional branch to 0x8c102aca - Unconditional branch to 0x8c102aca
+0x8c102aca: extu.b  r8, r10; Sign/Zero extension - Sign/Zero extension
+0x8c102acc: mov.l   r0, @(0,r11); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c1026b8
+0x8c1026b8: mov     #h'D, r2; Register manipulation - Register manipulation
+0x8c1026ba: extu.b  r8, r4; Sign/Zero extension - Sign/Zero extension
+
+Analyzing function at 0x8c103188
+0x8c103188: mov.l   r13, @(4,r13); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c1038fe
+0x8c1038fe: mov.w   r0, @(h'166,gbr); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c103900
+0x8c103900: mov.b   r15, @(r0,r8); Register manipulation - Register manipulation
+0x8c103902: mov     r13, r7; Register manipulation - Register manipulation
+0x8c103906: mov     #h'FFFFFFF6, r12; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c103936
+0x8c103936: mov.l   r15, @(r0,r8); Register manipulation - Register manipulation
+0x8c10393a: mov.w   r15, @(r0,r8); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10393c
+0x8c10393c: mov     #h'FFFFFFF7, r12; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10397a
+0x8c10397a: mov.l   @(h'1C,r12), r4; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c1039c2
+0x8c1039c4: mov.l   #h'C0C0C0FF, r2; Register manipulation - Register manipulation
+0x8c1039c8: bra     loc_8C102F30; Unconditional branch to 0x8c102f30 - Unconditional branch to 0x8c102f30
+0x8c102f32: extu.b  r8, r10; Sign/Zero extension - Sign/Zero extension
+0x8c102f34: mov.l   r0, @(0,r11); Register manipulation - Register manipulation
+0x8c102f36: mov.l   r0, @(0,r14); Register manipulation - Register manipulation
+0x8c102f3a: extu.b  r8, r10; Sign/Zero extension - Sign/Zero extension
+0x8c102f3c: mov.l   r0, @(0,r11); Register manipulation - Register manipulation
+0x8c102f3e: mov.b   r0, @r1; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c1039fe
+0x8c1039fe: mov.b   r15, @(r0,r8); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c103e52
+0x8c103e52: mov.w   r14, @(r0,r4); Register manipulation - Register manipulation
+0x8c103e54: bra     loc_8C104318; Unconditional branch to 0x8c104318 - Unconditional branch to 0x8c104318
+0x8c103e56: mov.l   r14, @-r0; Register manipulation - Register manipulation
+0x8c10431a: mov.l   @(r0,r7), r4; Register manipulation - Register manipulation
+0x8c104320: mov.b   r8, @r1; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c104292
+0x8c104294: mov.b   r8, @r14; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c1044c8
+
+Analyzing function at 0x8c105e3a
+0x8c105e3a: bra     loc_8C106ABC; Unconditional branch to 0x8c106abc - Unconditional branch to 0x8c106abc
+0x8c106abe: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c106ac2: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+
+Analyzing function at 0x8c105ec2
+0x8c105ec2: mov.l   #h'2920E381, r3; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c106e8e
+0x8c106e8e: mov.l   @(0,r14), r4; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c108f24
+0x8c108f24: bra     loc_8C10892E; Unconditional branch to 0x8c10892e - Unconditional branch to 0x8c10892e
+0x8c10892e: mov.l   r4, @(h'C,r1); Register manipulation - Register manipulation
+0x8c108930: mov.w   @(r0,r8), r4; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10ca0c
+
+Analyzing function at 0x8c10cda2
+
+Analyzing function at 0x8c10cdf0
+0x8c10cdf0: bra     loc_8C10DA52; Unconditional branch to 0x8c10da52 - Unconditional branch to 0x8c10da52
+0x8c10da56: mov     #h'64, r3 ; 'd'; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10cfd4
+0x8c10cfd4: bra     loc_8C10DC36; Unconditional branch to 0x8c10dc36 - Unconditional branch to 0x8c10dc36
+0x8c10cfd6: mov.w   #0, r6; Register manipulation - Register manipulation
+0x8c10dc36: mov.l   r13, @(h'14,r10); Register manipulation - Register manipulation
+0x8c10dc3a: mov.l   @(h'C,r15), r6; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10d63e
+0x8c10d63e: bra     dword_8C10C7EC; Unconditional branch to 0x8c10c7ec - Unconditional branch to 0x8c10c7ec
+
+Analyzing function at 0x8c10d664
+
+Analyzing function at 0x8c10d8d8
+0x8c10d8d8: mov.w   #h'7021, r0; Register manipulation - Register manipulation
+0x8c10d8da: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d8dc: bra     sub_8C10D920; Unconditional branch to 0x8c10d920 - Unconditional branch to 0x8c10d920
+0x8c10d8de: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10d920
+0x8c10d922: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10d924
+
+Analyzing function at 0x8c10d926
+0x8c10d926: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d928: mov.w   #h'1400, r4; Register manipulation - Register manipulation
+0x8c10d92a: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d92c: bra     loc_8C10D972; Unconditional branch to 0x8c10d972 - Unconditional branch to 0x8c10d972
+0x8c10d92e: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d972: extu.b  r8, r11; Sign/Zero extension - Sign/Zero extension
+0x8c10d974: mov.l   r12, @(8,r8); Register manipulation - Register manipulation
+0x8c10d976: mov.l   r8, @(h'30,r8); Register manipulation - Register manipulation
+0x8c10d978: mov.b   r0, @(h'A,r0); Register manipulation - Register manipulation
+0x8c10d97a: extu.b  r8, r4; Sign/Zero extension - Sign/Zero extension
+0x8c10d980: mov.l   @(0,r11), r13; Register manipulation - Register manipulation
+
+Analyzing function at 0x8c10da50
+
+Unconnected Blocks Analysis:
+Analyzing unconnected blocks:
+
+Analyzing unconnected function: sub_8C103900 at 0x8c103900
+0x8c103900: mov.b   r15, @(r0,r8); Register manipulation - Register manipulation
+0x8c103902: mov     r13, r7; Register manipulation - Register manipulation
+0x8c103906: mov     #h'FFFFFFF6, r12; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C103188 at 0x8c103188
+0x8c103188: mov.l   r13, @(4,r13); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10230C at 0x8c10230c
+0x8c10230c: mov.w   @(r0,r4), r8; Register manipulation - Register manipulation
+0x8c10230e: mov     r13, r13; Register manipulation - Register manipulation
+0x8c102310: mov.w   @(r0,r4), r0; Register manipulation - Register manipulation
+0x8c102312: mov     #h'64, r3 ; 'd'; Register manipulation - Register manipulation
+0x8c102314: dmuls.l r3, r12; Signed 64-bit multiply - Signed 64-bit multiply
+0x8c102316: mov.l   r6, @(h'14,r3); Register manipulation - Register manipulation
+0x8c102318: mov.l   #h'28F56A8C, r3; Register manipulation - Register manipulation
+0x8c10231a: mov.l   @(h'10,gbr), r0; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10CA0C at 0x8c10ca0c
+
+Analyzing unconnected function: sub_8C10208E at 0x8c10208e
+0x8c102094: mov.b   @r6+, r3; Register manipulation - Register manipulation
+0x8c102096: icbi    @r9; Instruction cache block invalidate - Instruction cache block invalidate
+0x8c10209e: mov.w   @(r0,r8), r2; Register manipulation - Register manipulation
+0x8c1020a0: mov.w   r7, @(r0,r11); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10250E at 0x8c10250e
+0x8c10250e: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102510: mov     #h'FFFFFFAE, r8; Register manipulation - Register manipulation
+0x8c102512: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102516: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102518: mov.b   r0, @(h'AD,gbr); Register manipulation - Register manipulation
+0x8c10251a: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c10251c: mov.w   #9, r0; Register manipulation - Register manipulation
+0x8c10251e: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c102520: mov     #h'2F, r6 ; '/'; Register manipulation - Register manipulation
+0x8c102522: mov.l   #h'7DA50900, r6; Register manipulation - Register manipulation
+0x8c102524: mov.l   @(h'BC,gbr), r0; Register manipulation - Register manipulation
+0x8c102528: bra     loc_8C10318A; Unconditional branch to 0x8c10318a - Unconditional branch to 0x8c10318a
+0x8c10252a: mov.w   #h'4262, r6; Register manipulation - Register manipulation
+0x8c103190: mov.l   r15, @(h'18,r8); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C106E8E at 0x8c106e8e
+0x8c106e8e: mov.l   @(0,r14), r4; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C101A12 at 0x8c101a12
+0x8c101a12: mov.l   r8, @(h'30,r0); Register manipulation - Register manipulation
+0x8c101a14: mov.w   #h'FFFF8413, r12; Register manipulation - Register manipulation
+0x8c101a16: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c101a18: bra     loc_8C100A40; Unconditional branch to 0x8c100a40 - Unconditional branch to 0x8c100a40
+0x8c101a1a: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c100a40: icbi    @r3; Instruction cache block invalidate - Instruction cache block invalidate
+0x8c100a44: mov.l   r13, @(8,r14); Register manipulation - Register manipulation
+0x8c100a48: mov.l   r13, @(4,r14); Register manipulation - Register manipulation
+0x8c100a4c: mov.l   r13, @(h'C,r14); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C104292 at 0x8c104292
+0x8c104294: mov.b   r8, @r14; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10D920 at 0x8c10d920
+0x8c10d922: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10CDA2 at 0x8c10cda2
+
+Analyzing unconnected function: sub_8C108F24 at 0x8c108f24
+0x8c108f24: bra     loc_8C10892E; Unconditional branch to 0x8c10892e - Unconditional branch to 0x8c10892e
+0x8c10892e: mov.l   r4, @(h'C,r1); Register manipulation - Register manipulation
+0x8c108930: mov.w   @(r0,r8), r4; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10D924 at 0x8c10d924
+
+Analyzing unconnected function: sub_8C10D926 at 0x8c10d926
+0x8c10d926: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d928: mov.w   #h'1400, r4; Register manipulation - Register manipulation
+0x8c10d92a: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d92c: bra     loc_8C10D972; Unconditional branch to 0x8c10d972 - Unconditional branch to 0x8c10d972
+0x8c10d92e: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d972: extu.b  r8, r11; Sign/Zero extension - Sign/Zero extension
+0x8c10d974: mov.l   r12, @(8,r8); Register manipulation - Register manipulation
+0x8c10d976: mov.l   r8, @(h'30,r8); Register manipulation - Register manipulation
+0x8c10d978: mov.b   r0, @(h'A,r0); Register manipulation - Register manipulation
+0x8c10d97a: extu.b  r8, r4; Sign/Zero extension - Sign/Zero extension
+0x8c10d980: mov.l   @(0,r11), r13; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C102332 at 0x8c102332
+0x8c102332: mov.w   r7, @(r0,r8); Register manipulation - Register manipulation
+0x8c102334: icbi    @r6; Instruction cache block invalidate - Instruction cache block invalidate
+
+Analyzing unconnected function: sub_8C101F36 at 0x8c101f36
+0x8c101f40: bra     dword_8C100F7C; Unconditional branch to 0x8c100f7c - Unconditional branch to 0x8c100f7c
+0x8c101f42: mov.l   r8, @(h'30,r6); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C103936 at 0x8c103936
+0x8c103936: mov.l   r15, @(r0,r8); Register manipulation - Register manipulation
+0x8c10393a: mov.w   r15, @(r0,r8); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C1026B8 at 0x8c1026b8
+0x8c1026b8: mov     #h'D, r2; Register manipulation - Register manipulation
+0x8c1026ba: extu.b  r8, r4; Sign/Zero extension - Sign/Zero extension
+
+Analyzing unconnected function: sub_8C105E3A at 0x8c105e3a
+0x8c105e3a: bra     loc_8C106ABC; Unconditional branch to 0x8c106abc - Unconditional branch to 0x8c106abc
+0x8c106abe: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+0x8c106ac2: extu.b  r8, r3; Sign/Zero extension - Sign/Zero extension
+
+Analyzing unconnected function: sub_8C10393C at 0x8c10393c
+0x8c10393c: mov     #h'FFFFFFF7, r12; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C1038FE at 0x8c1038fe
+0x8c1038fe: mov.w   r0, @(h'166,gbr); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10D63E at 0x8c10d63e
+0x8c10d63e: bra     dword_8C10C7EC; Unconditional branch to 0x8c10c7ec - Unconditional branch to 0x8c10c7ec
+
+Analyzing unconnected function: sub_8C1039C2 at 0x8c1039c2
+0x8c1039c4: mov.l   #h'C0C0C0FF, r2; Register manipulation - Register manipulation
+0x8c1039c8: bra     loc_8C102F30; Unconditional branch to 0x8c102f30 - Unconditional branch to 0x8c102f30
+0x8c102f32: extu.b  r8, r10; Sign/Zero extension - Sign/Zero extension
+0x8c102f34: mov.l   r0, @(0,r11); Register manipulation - Register manipulation
+0x8c102f36: mov.l   r0, @(0,r14); Register manipulation - Register manipulation
+0x8c102f3a: extu.b  r8, r10; Sign/Zero extension - Sign/Zero extension
+0x8c102f3c: mov.l   r0, @(0,r11); Register manipulation - Register manipulation
+0x8c102f3e: mov.b   r0, @r1; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C105EC2 at 0x8c105ec2
+0x8c105ec2: mov.l   #h'2920E381, r3; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C1044C8 at 0x8c1044c8
+
+Analyzing unconnected function: sub_8C10DA50 at 0x8c10da50
+
+Analyzing unconnected function: sub_8C103E52 at 0x8c103e52
+0x8c103e52: mov.w   r14, @(r0,r4); Register manipulation - Register manipulation
+0x8c103e54: bra     loc_8C104318; Unconditional branch to 0x8c104318 - Unconditional branch to 0x8c104318
+0x8c103e56: mov.l   r14, @-r0; Register manipulation - Register manipulation
+0x8c10431a: mov.l   @(r0,r7), r4; Register manipulation - Register manipulation
+0x8c104320: mov.b   r8, @r1; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10CFD4 at 0x8c10cfd4
+0x8c10cfd4: bra     loc_8C10DC36; Unconditional branch to 0x8c10dc36 - Unconditional branch to 0x8c10dc36
+0x8c10cfd6: mov.w   #0, r6; Register manipulation - Register manipulation
+0x8c10dc36: mov.l   r13, @(h'14,r10); Register manipulation - Register manipulation
+0x8c10dc3a: mov.l   @(h'C,r15), r6; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10D8D8 at 0x8c10d8d8
+0x8c10d8d8: mov.w   #h'7021, r0; Register manipulation - Register manipulation
+0x8c10d8da: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c10d8dc: bra     sub_8C10D920; Unconditional branch to 0x8c10d920 - Unconditional branch to 0x8c10d920
+0x8c10d8de: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C101DDA at 0x8c101dda
+0x8c101de0: mov.w   #h'168C, r5; Register manipulation - Register manipulation
+0x8c101de2: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+0x8c101de4: mov.l   @(h'18,r2), r4; Register manipulation - Register manipulation
+0x8c101de6: extu.b  r8, r11; Sign/Zero extension - Sign/Zero extension
+0x8c101de8: exts.w  r8, r0; Sign/Zero extension - Sign/Zero extension
+0x8c101dea: mov.b   @(r0,r8), r3; Register manipulation - Register manipulation
+0x8c101dec: mov.l   #h'80721844, r12; Register manipulation - Register manipulation
+0x8c101dee: mov.l   r8, @(h'30,r0); Register manipulation - Register manipulation
+0x8c101df0: bra     unk_8C100E1A; Unconditional branch to 0x8c100e1a - Unconditional branch to 0x8c100e1a
+0x8c101df2: mov.l   r8, @(h'30,r1); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10D664 at 0x8c10d664
+
+Analyzing unconnected function: sub_8C10106A at 0x8c10106a
+0x8c10106a: mov.w   #h'91F, r6; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10CDF0 at 0x8c10cdf0
+0x8c10cdf0: bra     loc_8C10DA52; Unconditional branch to 0x8c10da52 - Unconditional branch to 0x8c10da52
+0x8c10da56: mov     #h'64, r3 ; 'd'; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C10397A at 0x8c10397a
+0x8c10397a: mov.l   @(h'1C,r12), r4; Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C1025FC at 0x8c1025fc
+0x8c1025fc: bra     loc_8C102ACA; Unconditional branch to 0x8c102aca - Unconditional branch to 0x8c102aca
+0x8c102aca: extu.b  r8, r10; Sign/Zero extension - Sign/Zero extension
+0x8c102acc: mov.l   r0, @(0,r11); Register manipulation - Register manipulation
+
+Analyzing unconnected function: sub_8C1039FE at 0x8c1039fe
+0x8c1039fe: mov.b   r15, @(r0,r8); Register manipulation - Register manipulation
+
+Validation of References and Branches:
+Validating references and branches:
+
+Passo 1: Rastreando Branches Diretos
+Branch direto em 0x8c101a18 para 0x8c100a40
+Fun  o de destino: sub_8C101A12
+Branch direto em 0x8c101df0 para 0x8c100e1a
+Fun  o de destino: 
+Branch direto em 0x8c101f40 para 0x8c100f7c
+Fun  o de destino: 
+Branch direto em 0x8c102528 para 0x8c10318a
+Fun  o de destino: sub_8C10250E
+Branch direto em 0x8c1025fc para 0x8c102aca
+Fun  o de destino: sub_8C1025FC
+Branch direto em 0x8c1039c8 para 0x8c102f30
+Fun  o de destino: sub_8C1039C2
+Branch direto em 0x8c103e54 para 0x8c104318
+Fun  o de destino: sub_8C103E52
+Branch direto em 0x8c105e3a para 0x8c106abc
+Fun  o de destino: sub_8C105E3A
+Branch direto em 0x8c108f24 para 0x8c10892e
+Fun  o de destino: sub_8C108F24
+Branch direto em 0x8c10cdf0 para 0x8c10da52
+Fun  o de destino: sub_8C10CDF0
+Branch direto em 0x8c10cfd4 para 0x8c10dc36
+Fun  o de destino: sub_8C10CFD4
+Branch direto em 0x8c10d63e para 0x8c10c7ec
+Fun  o de destino: 
+Branch direto em 0x8c10d8dc para 0x8c10d920
+Fun  o de destino: sub_8C10D920
+Branch direto em 0x8c10d92c para 0x8c10d972
+Fun  o de destino: sub_8C10D926
+
+Passo 2: Rastreando Branches Indiretos
+
+Passo 3: Validando Fun  es N o Conectadas
+Fun  o n o conectada: sub_8C103900 em 0x8c103900
+Fun  o n o conectada: sub_8C103188 em 0x8c103188
+Fun  o n o conectada: sub_8C10230C em 0x8c10230c
+Fun  o n o conectada: sub_8C10CA0C em 0x8c10ca0c
+Fun  o n o conectada: sub_8C10208E em 0x8c10208e
+Fun  o n o conectada: sub_8C10250E em 0x8c10250e
+Fun  o n o conectada: sub_8C106E8E em 0x8c106e8e
+Fun  o n o conectada: sub_8C101A12 em 0x8c101a12
+Fun  o n o conectada: sub_8C104292 em 0x8c104292
+Fun  o n o conectada: sub_8C10D920 em 0x8c10d920
+Fun  o n o conectada: sub_8C10CDA2 em 0x8c10cda2
+Fun  o n o conectada: sub_8C108F24 em 0x8c108f24
+Fun  o n o conectada: sub_8C10D924 em 0x8c10d924
+Fun  o n o conectada: sub_8C10D926 em 0x8c10d926
+Fun  o n o conectada: sub_8C102332 em 0x8c102332
+Fun  o n o conectada: sub_8C101F36 em 0x8c101f36
+Fun  o n o conectada: sub_8C103936 em 0x8c103936
+Fun  o n o conectada: sub_8C1026B8 em 0x8c1026b8
+Fun  o n o conectada: sub_8C105E3A em 0x8c105e3a
+Fun  o n o conectada: sub_8C10393C em 0x8c10393c
+Fun  o n o conectada: sub_8C1038FE em 0x8c1038fe
+Fun  o n o conectada: sub_8C10D63E em 0x8c10d63e
+Fun  o n o conectada: sub_8C1039C2 em 0x8c1039c2
+Fun  o n o conectada: sub_8C105EC2 em 0x8c105ec2
+Fun  o n o conectada: sub_8C1044C8 em 0x8c1044c8
+Fun  o n o conectada: sub_8C10DA50 em 0x8c10da50
+Fun  o n o conectada: sub_8C103E52 em 0x8c103e52
+Fun  o n o conectada: sub_8C10CFD4 em 0x8c10cfd4
+Fun  o n o conectada: sub_8C10D8D8 em 0x8c10d8d8
+Fun  o n o conectada: sub_8C101DDA em 0x8c101dda
+Fun  o n o conectada: sub_8C10D664 em 0x8c10d664
+Fun  o n o conectada: sub_8C10106A em 0x8c10106a
+Fun  o n o conectada: sub_8C10CDF0 em 0x8c10cdf0
+Fun  o n o conectada: sub_8C10397A em 0x8c10397a
+Fun  o n o conectada: sub_8C1025FC em 0x8c1025fc
+Fun  o n o conectada: sub_8C1039FE em 0x8c1039fe
+
+Passo 4: Validando Uso de Cache (icbi)
+Instru  o icbi em 0x8c100a40: icbi    @r3; Instruction cache block invalidate
+Instru  o icbi em 0x8c102096: icbi    @r9; Instruction cache block invalidate
+Instru  o icbi em 0x8c102334: icbi    @r6; Instruction cache block invalidate
+
+Passo 5: Validando C lculos e Manipula  o de Registradores
+Opera  o matem tica em 0x8c102314: dmuls.l r3, r12; Signed 64-bit multiply
+
+Validation of Calculations and Cache:
+Validando c lculos e manipula  es de cache:
+
+Analisando fun  o: sub_8C10106A em 0x8c10106a
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10106a - 0x8c10106c
+      -> Bloco 1
+    Bloco 1: 0x8c101cca - 0x8c101cca
+
+Analisando fun  o: sub_8C101A12 em 0x8c101a12
+  Invalida  o de cache em 0x8c100a40: icbi    @r3; Instruction cache block invalidate
+    @r3 n o rastreado
+    Aten  o: N o h  leitura imediata ap s icbi
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c101a12 - 0x8c101a1c
+      -> Bloco 1
+    Bloco 1: 0x8c100a40 - 0x8c100a44
+      -> Bloco 2
+    Bloco 2: 0x8c100a44 - 0x8c100a4e
+      -> Bloco 3
+    Bloco 3: 0x8c100a4e - 0x8c100a4e
+
+Analisando fun  o: sub_8C101DDA em 0x8c101dda
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c101dda - 0x8c101dee
+      -> Bloco 1
+    Bloco 1: 0x8c101dee - 0x8c101df4
+      -> Bloco 2
+    Bloco 2: 0x8c100e1a - 0x8c100e1a
+
+Analisando fun  o: sub_8C101F36 em 0x8c101f36
+  C lculo em 0x8c101f36: div1    r7, r0; ISOLATED BLOCK: This function is not connected to the main flow
+    r7 n o rastreado
+    r0 n o rastreado
+    Aten  o: Verificar se r0 n o   zero
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c101f36 - 0x8c101f44
+      -> Bloco 1
+    Bloco 1: 0x8c100f7c - 0x8c100f7c
+
+Analisando fun  o: sub_8C10208E em 0x8c10208e
+  C lculo em 0x8c10208e: div1    r7, r0; ISOLATED BLOCK: This function is not connected to the main flow
+    r7 n o rastreado
+    r0 n o rastreado
+    Aten  o: Verificar se r0 n o   zero
+  C lculo em 0x8c102090: div1    r7, r7
+    r7 n o rastreado
+    r7 n o rastreado
+    Aten  o: Verificar se r7 n o   zero
+  Invalida  o de cache em 0x8c102096: icbi    @r9; Instruction cache block invalidate
+    @r9 n o rastreado
+    Aten  o: N o h  leitura imediata ap s icbi
+  C lculo em 0x8c10209c: div1    r3, r7
+    r3 n o rastreado
+    r7 n o rastreado
+    Aten  o: Verificar se r7 n o   zero
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10208e - 0x8c1020a2
+      -> Bloco 1
+    Bloco 1: 0x8c1020a2 - 0x8c1020a2
+
+Analisando fun  o: sub_8C10230C em 0x8c10230c
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10230c - 0x8c10231c
+      -> Bloco 1
+    Bloco 1: 0x8c10231c - 0x8c10231c
+
+Analisando fun  o: sub_8C102332 em 0x8c102332
+  Invalida  o de cache em 0x8c102334: icbi    @r6; Instruction cache block invalidate
+    @r6 n o rastreado
+    Aten  o: N o h  leitura imediata ap s icbi
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c102332 - 0x8c102338
+      -> Bloco 1
+    Bloco 1: 0x8c102338 - 0x8c102338
+
+Analisando fun  o: sub_8C10250E em 0x8c10250e
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10250e - 0x8c102512
+      -> Bloco 1
+    Bloco 1: 0x8c102512 - 0x8c10252a
+      -> Bloco 2
+      -> Bloco 3
+    Bloco 2: 0x8c10252a - 0x8c10252c
+    Bloco 3: 0x8c10318a - 0x8c103192
+      -> Bloco 4
+    Bloco 4: 0x8c103192 - 0x8c103192
+
+Analisando fun  o: sub_8C1025FC em 0x8c1025fc
+  C lculo em 0x8c1025fe: div1    r13, r2
+    r13 n o rastreado
+    r2 n o rastreado
+    Aten  o: Verificar se r2 n o   zero
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c1025fc - 0x8c102600
+      -> Bloco 1
+    Bloco 1: 0x8c102aca - 0x8c102ace
+      -> Bloco 2
+    Bloco 2: 0x8c102ace - 0x8c102ace
+
+Analisando fun  o: sub_8C1026B8 em 0x8c1026b8
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c1026b8 - 0x8c1026be
+      -> Bloco 1
+    Bloco 1: 0x8c1026be - 0x8c1026be
+
+Analisando fun  o: sub_8C103188 em 0x8c103188
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c103188 - 0x8c10318a
+      -> Bloco 1
+    Bloco 1: 0x8c10318a - 0x8c10318a
+
+Analisando fun  o: sub_8C1038FE em 0x8c1038fe
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c1038fe - 0x8c103900
+      -> Bloco 1
+    Bloco 1: 0x8c103900 - 0x8c103900
+
+Analisando fun  o: sub_8C103900 em 0x8c103900
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c103900 - 0x8c103908
+      -> Bloco 1
+    Bloco 1: 0x8c103908 - 0x8c103908
+
+Analisando fun  o: sub_8C103936 em 0x8c103936
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c103936 - 0x8c10393c
+      -> Bloco 1
+    Bloco 1: 0x8c10393c - 0x8c10393c
+
+Analisando fun  o: sub_8C10393C em 0x8c10393c
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10393c - 0x8c10393e
+      -> Bloco 1
+    Bloco 1: 0x8c10393e - 0x8c10393e
+
+Analisando fun  o: sub_8C10397A em 0x8c10397a
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10397a - 0x8c10397c
+      -> Bloco 1
+    Bloco 1: 0x8c10397c - 0x8c10397c
+
+Analisando fun  o: sub_8C1039C2 em 0x8c1039c2
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c1039c2 - 0x8c1039cc
+      -> Bloco 1
+    Bloco 1: 0x8c102f30 - 0x8c102f40
+      -> Bloco 2
+    Bloco 2: 0x8c102f40 - 0x8c102f40
+
+Analisando fun  o: sub_8C1039FE em 0x8c1039fe
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c1039fe - 0x8c103a00
+      -> Bloco 1
+    Bloco 1: 0x8c103a00 - 0x8c103a00
+
+Analisando fun  o: sub_8C103E52 em 0x8c103e52
+  C lculo em 0x8c10431e: div1    r8, r1
+    r8 n o rastreado
+    r1 n o rastreado
+    Aten  o: Verificar se r1 n o   zero
+  C lculo em 0x8c104322: div1    r8, r2
+    r8 inicializado em: 0x8c104320
+    r2 n o rastreado
+    Aten  o: Verificar se r2 n o   zero
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c103e52 - 0x8c103e58
+      -> Bloco 1
+    Bloco 1: 0x8c104318 - 0x8c104324
+      -> Bloco 2
+    Bloco 2: 0x8c104324 - 0x8c104324
+
+Analisando fun  o: sub_8C104292 em 0x8c104292
+  C lculo em 0x8c104296: div1    r8, r15
+    r8 inicializado em: 0x8c104294
+    r15 n o rastreado
+    Aten  o: Verificar se r15 n o   zero
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c104292 - 0x8c104298
+      -> Bloco 1
+    Bloco 1: 0x8c104298 - 0x8c104298
+
+Analisando fun  o: sub_8C1044C8 em 0x8c1044c8
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c1044c8 - 0x8c1044ca
+      -> Bloco 1
+    Bloco 1: 0x8c1044ca - 0x8c1044ca
+
+Analisando fun  o: sub_8C105E3A em 0x8c105e3a
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c105e3a - 0x8c105e3e
+      -> Bloco 1
+    Bloco 1: 0x8c106abc - 0x8c106ac4
+      -> Bloco 2
+    Bloco 2: 0x8c106ac4 - 0x8c106ac8
+      -> Bloco 3
+    Bloco 3: 0x8c106ac8 - 0x8c106ac8
+
+Analisando fun  o: sub_8C105EC2 em 0x8c105ec2
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c105ec2 - 0x8c105ec4
+      -> Bloco 1
+    Bloco 1: 0x8c106224 - 0x8c106224
+
+Analisando fun  o: sub_8C106E8E em 0x8c106e8e
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c106e8e - 0x8c106e92
+      -> Bloco 1
+    Bloco 1: 0x8c106e92 - 0x8c106e92
+
+Analisando fun  o: sub_8C108F24 em 0x8c108f24
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c108f24 - 0x8c108f28
+      -> Bloco 1
+    Bloco 1: 0x8c10892e - 0x8c108932
+      -> Bloco 2
+    Bloco 2: 0x8c108932 - 0x8c108932
+
+Analisando fun  o: sub_8C10CA0C em 0x8c10ca0c
+  C lculo em 0x8c10ca0c: div1    r1, r2; ISOLATED BLOCK: This function is not connected to the main flow
+    r1 n o rastreado
+    r2 n o rastreado
+    Aten  o: Verificar se r2 n o   zero
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10ca0c - 0x8c10ca0e
+      -> Bloco 1
+    Bloco 1: 0x8c10ceb4 - 0x8c10ceb4
+
+Analisando fun  o: sub_8C10CDA2 em 0x8c10cda2
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10cda2 - 0x8c10cda4
+      -> Bloco 1
+    Bloco 1: 0x8c10be3e - 0x8c10be3e
+
+Analisando fun  o: sub_8C10CDF0 em 0x8c10cdf0
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10cdf0 - 0x8c10cdf2
+      -> Bloco 1
+      -> Bloco 2
+    Bloco 1: 0x8c10cdf2 - 0x8c10cdf4
+    Bloco 2: 0x8c10da52 - 0x8c10da5a
+      -> Bloco 3
+    Bloco 3: 0x8c10da5a - 0x8c10da5a
+
+Analisando fun  o: sub_8C10CFD4 em 0x8c10cfd4
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10cfd4 - 0x8c10cfd6
+      -> Bloco 1
+      -> Bloco 2
+    Bloco 1: 0x8c10cfd6 - 0x8c10cfd8
+    Bloco 2: 0x8c10dc36 - 0x8c10dc3c
+      -> Bloco 3
+    Bloco 3: 0x8c10dc3c - 0x8c10dc3c
+
+Analisando fun  o: sub_8C10D63E em 0x8c10d63e
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10d63e - 0x8c10d642
+      -> Bloco 1
+    Bloco 1: 0x8c10c7ec - 0x8c10c7ec
+
+Analisando fun  o: sub_8C10D664 em 0x8c10d664
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10d664 - 0x8c10d666
+      -> Bloco 1
+    Bloco 1: 0x8c10dc10 - 0x8c10dc10
+
+Analisando fun  o: sub_8C10D8D8 em 0x8c10d8d8
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10d8d8 - 0x8c10d8e0
+      -> Bloco 1
+    Bloco 1: 0x8c10d920 - 0x8c10d920
+
+Analisando fun  o: sub_8C10D920 em 0x8c10d920
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10d920 - 0x8c10d924
+      -> Bloco 1
+    Bloco 1: 0x8c10d924 - 0x8c10d924
+
+Analisando fun  o: sub_8C10D924 em 0x8c10d924
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10d924 - 0x8c10d926
+      -> Bloco 1
+    Bloco 1: 0x8c10d926 - 0x8c10d926
+
+Analisando fun  o: sub_8C10D926 em 0x8c10d926
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10d926 - 0x8c10d930
+      -> Bloco 1
+    Bloco 1: 0x8c10d972 - 0x8c10d982
+      -> Bloco 2
+    Bloco 2: 0x8c10d982 - 0x8c10d982
+
+Analisando fun  o: sub_8C10DA50 em 0x8c10da50
+
+  Fluxo da fun  o:
+    Bloco 0: 0x8c10da50 - 0x8c10da52
+      -> Bloco 1
+    Bloco 1: 0x8c10da52 - 0x8c10da52
+
+Check icbi followed by read:
+Verificando invalida  es de cache (icbi) n o seguidas por leituras:
+
+Invalida  o de cache em 0x8c100a40 na fun  o sub_8C101A12:
+  icbi    @r3; Instruction cache block invalidate
+  ATEN  O: Nenhuma leitura imediata ap s icbi encontrada!
+
+Invalida  o de cache em 0x8c102096 na fun  o sub_8C10208E:
+  icbi    @r9; Instruction cache block invalidate
+  ATEN  O: Nenhuma leitura imediata ap s icbi encontrada!
+
+Invalida  o de cache em 0x8c102334 na fun  o sub_8C102332:
+  icbi    @r6; Instruction cache block invalidate
+  ATEN  O: Nenhuma leitura imediata ap s icbi encontrada!
+
+Check unconnected functions:
+Verificando fun  es n o conectadas (potencial dead code ou ponteiros de fun  o):
+
+Fun  o potencialmente n o conectada: sub_8C103900 em 0x8c103900
+  Refer ncias indiretas encontradas:
+    0x8c1038fe: mov.w   r0, @(h'166,gbr); ISOLATED BLOCK: This function is not connected to the main flow
+    0x8c102b16: bsr     sub_8C103900
+
+Fun  o potencialmente n o conectada: sub_8C103188 em 0x8c103188
+  Refer ncias indiretas encontradas:
+    0x8c103186: cmp/ge  r13, r1
+    0x8c102526: bsr     sub_8C103188
+
+Fun  o potencialmente n o conectada: sub_8C10230C em 0x8c10230c
+  Refer ncias indiretas encontradas:
+    0x8c10230a: mov.l   r4, @(h'34,r8)
+    0x8c101e40: bsr     sub_8C10230C
+
+Fun  o potencialmente n o conectada: sub_8C10CA0C em 0x8c10ca0c
+  Refer ncias indiretas encontradas:
+    0x8c10bdaa: bsr     sub_8C10CA0C
+
+Fun  o potencialmente n o conectada: sub_8C10208E em 0x8c10208e
+  Refer ncias indiretas encontradas:
+    0x8c1019c2: bsr     sub_8C10208E
+
+Fun  o potencialmente n o conectada: sub_8C10250E em 0x8c10250e
+  Refer ncias indiretas encontradas:
+    0x8c10250c: mov.w   #h'900, r4
+    0x8c1018ac: bsr     sub_8C10250E
+
+Fun  o potencialmente n o conectada: sub_8C106E8E em 0x8c106e8e
+  Refer ncias indiretas encontradas:
+    0x8c107d38: bsr     sub_8C106E8E
+
+Fun  o potencialmente n o conectada: sub_8C101A12 em 0x8c101a12
+  Refer ncias indiretas encontradas:
+    0x8c101a10: mov.l   #h'31842180, r12
+    0x8c1029b0: bsr     sub_8C101A12
+
+Fun  o potencialmente n o conectada: sub_8C104292 em 0x8c104292
+  Refer ncias indiretas encontradas:
+    0x8c104290: mov     #h'66, r3 ; 'f'
+    0x8c105250: bsr     sub_8C104292
+
+Fun  o potencialmente n o conectada: sub_8C10D920 em 0x8c10d920
+  Refer ncias indiretas encontradas:
+    0x8c10d91e: mov.l   r8, @(h'30,r1)
+    0x8c10d244: bsr     sub_8C10D920
+    0x8c10d8dc: bra     sub_8C10D920; Unconditional branch to 0x8c10d920
+
+Fun  o potencialmente n o conectada: sub_8C10CDA2 em 0x8c10cda2
+  Refer ncias indiretas encontradas:
+    0x8c10cda0: bra     unk_8C10BE3E
+    0x8c10d756: bsr     sub_8C10CDA2
+
+Fun  o potencialmente n o conectada: sub_8C108F24 em 0x8c108f24
+  Refer ncias indiretas encontradas:
+    0x8c108f22: mov     #h'50, r5 ; 'P'
+    0x8c1097a4: bsr     sub_8C108F24
+
+Fun  o potencialmente n o conectada: sub_8C10D924 em 0x8c10d924
+  Refer ncias indiretas encontradas:
+    0x8c10d922: mov.l   r8, @(h'30,r1); Register manipulation
+    0x8c10d8e0: bsr     sub_8C10D924
+
+Fun  o potencialmente n o conectada: sub_8C10D926 em 0x8c10d926
+  Refer ncias indiretas encontradas:
+    0x8c10d924: cmp/eq  #h'21, r0 ; '!'; ISOLATED BLOCK: This function is not connected to the main flow
+    0x8c10d24a: bsr     sub_8C10D926
+
+Fun  o potencialmente n o conectada: sub_8C102332 em 0x8c102332
+  Refer ncias indiretas encontradas:
+    0x8c101e66: bsr     sub_8C102332
+
+Fun  o potencialmente n o conectada: sub_8C101F36 em 0x8c101f36
+  Refer ncias indiretas encontradas:
+    0x8c101f34: mov.l   r10, @(0,r5)
+    0x8c101220: bsr     sub_8C101F36
+
+Fun  o potencialmente n o conectada: sub_8C103936 em 0x8c103936
+  Refer ncias indiretas encontradas:
+    0x8c103934: not     r12, r0
+    0x8c1034de: bsr     sub_8C103936
+
+Fun  o potencialmente n o conectada: sub_8C1026B8 em 0x8c1026b8
+  Refer ncias indiretas encontradas:
+    0x8c103670: bsr     sub_8C1026B8
+
+Fun  o potencialmente n o conectada: sub_8C105E3A em 0x8c105e3a
+  Refer ncias indiretas encontradas:
+    0x8c105e38: mov.l   @r6+, r6
+    0x8c1058b8: bsr     sub_8C105E3A
+
+Fun  o potencialmente n o conectada: sub_8C10393C em 0x8c10393c
+  Refer ncias indiretas encontradas:
+    0x8c10393a: mov.w   r15, @(r0,r8); Register manipulation
+    0x8c102b58: bsr     sub_8C10393C
+
+Fun  o potencialmente n o conectada: sub_8C1038FE em 0x8c1038fe
+  Refer ncias indiretas encontradas:
+    0x8c1038fc: not     r12, r7
+    0x8c102b1a: bsr     sub_8C1038FE
+
+Fun  o potencialmente n o conectada: sub_8C10D63E em 0x8c10d63e
+  Refer ncias indiretas encontradas:
+    0x8c10d63c: mov.l   #h'91633823, r15
+    0x8c10cf72: bsr     sub_8C10D63E
+
+Fun  o potencialmente n o conectada: sub_8C1039C2 em 0x8c1039c2
+  Refer ncias indiretas encontradas:
+    0x8c1039c0: mov.l   #h'404040FF, r2
+    0x8c102bda: bsr     sub_8C1039C2
+
+Fun  o potencialmente n o conectada: sub_8C105EC2 em 0x8c105ec2
+  Refer ncias indiretas encontradas:
+    0x8c105ec0: bra     unk_8C106224
+    0x8c105280: bsr     sub_8C105EC2
+
+Fun  o potencialmente n o conectada: sub_8C1044C8 em 0x8c1044c8
+  Refer ncias indiretas encontradas:
+    0x8c103866: bsr     sub_8C1044C8
+
+Fun  o potencialmente n o conectada: sub_8C10DA50 em 0x8c10da50
+  Refer ncias indiretas encontradas:
+    0x8c10cdee: bsr     sub_8C10DA50
+
+Fun  o potencialmente n o conectada: sub_8C103E52 em 0x8c103e52
+  Refer ncias indiretas encontradas:
+    0x8c103e50: mov.l   @(h'38,r4), r10
+    0x8c104cfc: bsr     sub_8C103E52
+
+Fun  o potencialmente n o conectada: sub_8C10CFD4 em 0x8c10cfd4
+  Refer ncias indiretas encontradas:
+    0x8c10cfd2: bsr     unk_8C10DC34
+    0x8c10d988: bsr     sub_8C10CFD4
+
+Fun  o potencialmente n o conectada: sub_8C10D8D8 em 0x8c10d8d8
+  Refer ncias indiretas encontradas:
+    0x8c10d8d6: mov.l   r8, @(h'30,r1)
+    0x8c10e45e: bsr     sub_8C10D8D8
+
+Fun  o potencialmente n o conectada: sub_8C101DDA em 0x8c101dda
+  Refer ncias indiretas encontradas:
+    0x8c101dd8: nop
+    0x8c10256c: bsr     sub_8C101DDA
+
+Fun  o potencialmente n o conectada: sub_8C10D664 em 0x8c10d664
+  Refer ncias indiretas encontradas:
+    0x8c10d662: bra     loc_8C10DC10
+    0x8c10e1ea: bsr     sub_8C10D664
+
+Fun  o potencialmente n o conectada: sub_8C10106A em 0x8c10106a
+  Refer ncias indiretas encontradas:
+    0x8c101068: bra     loc_8C101CCA
+    0x8c100408: bsr     sub_8C10106A
+
+Fun  o potencialmente n o conectada: sub_8C10CDF0 em 0x8c10cdf0
+  Refer ncias indiretas encontradas:
+    0x8c10cdee: bsr     sub_8C10DA50
+    0x8c10cb2c: bsr     sub_8C10CDF0
+
+Fun  o potencialmente n o conectada: sub_8C10397A em 0x8c10397a
+  Refer ncias indiretas encontradas:
+    0x8c103978: mov.w   r15, @(r0,r8)
+    0x8c102b96: bsr     sub_8C10397A
+
+Fun  o potencialmente n o conectada: sub_8C1025FC em 0x8c1025fc
+  Refer ncias indiretas encontradas:
+    0x8c102130: bsr     sub_8C1025FC
+
+Fun  o potencialmente n o conectada: sub_8C1039FE em 0x8c1039fe
+  Refer ncias indiretas encontradas:
+    0x8c1039fc: stc.l   r3_bank, @-r2
+    0x8c102c1a: bsr     sub_8C1039FE
